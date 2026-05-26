@@ -1,0 +1,476 @@
+# AI Engineering from Scratch — TODO
+
+## Phase 00 — Setup and Tooling
+- [x] 01 Dev environment
+- [x] 02 Git and collaboration
+- [x] 03 GPU setup and cloud
+- [x] 04 APIs and keys
+- [x] 05 Jupyter notebooks
+- [x] 06 Python environments
+- [ ] 07 Docker for AI
+- [ ] 08 Editor setup
+- [ ] 09 Data management
+- [ ] 10 Terminal and shell
+- [ ] 11 Linux for AI
+- [ ] 12 Debugging and profiling
+
+## Phase 01 — Math Foundations
+- [ ] 01 Linear algebra intuition
+- [ ] 02 Vectors, matrices, operations
+- [ ] 03 Matrix transformations
+- [ ] 04 Calculus for ML
+- [ ] 05 Chain rule and autodiff
+- [ ] 06 Probability and distributions
+- [ ] 07 Bayes theorem
+- [ ] 08 Optimization
+- [ ] 09 Information theory
+- [ ] 10 Dimensionality reduction
+- [ ] 11 Singular value decomposition
+- [ ] 12 Tensor operations
+- [ ] 13 Numerical stability
+- [ ] 14 Norms and distances
+- [ ] 15 Statistics for ML
+- [ ] 16 Sampling methods
+- [ ] 17 Linear systems
+- [ ] 18 Convex optimization
+- [ ] 19 Complex numbers
+- [ ] 20 Fourier transform
+- [ ] 21 Graph theory
+- [ ] 22 Stochastic processes
+
+## Phase 02 — ML Fundamentals
+- [ ] 01 What is machine learning
+- [ ] 02 Linear regression
+- [ ] 03 Logistic regression
+- [ ] 04 Decision trees
+- [ ] 05 Support vector machines
+- [ ] 06 KNN and distances
+- [ ] 07 Unsupervised learning
+- [ ] 08 Feature engineering
+- [ ] 09 Model evaluation
+- [ ] 10 Bias-variance
+- [ ] 11 Ensemble methods
+- [ ] 12 Hyperparameter tuning
+- [ ] 13 ML pipelines
+- [ ] 14 Naive Bayes
+- [ ] 15 Time series
+- [ ] 16 Anomaly detection
+- [ ] 17 Imbalanced data
+- [ ] 18 Feature selection
+
+## Phase 03 — Deep Learning Core
+- [ ] 01 The perceptron
+- [ ] 02 Multi-layer networks
+- [ ] 03 Backpropagation
+- [ ] 04 Activation functions
+- [ ] 05 Loss functions
+- [ ] 06 Optimizers
+- [ ] 07 Regularization
+- [ ] 08 Weight initialization
+- [ ] 09 Learning rate schedules
+- [ ] 10 Mini framework
+- [ ] 11 Intro to PyTorch
+- [ ] 12 Intro to JAX
+- [ ] 13 Debugging neural networks
+
+## Phase 04 — Computer Vision
+- [ ] 01 Image fundamentals
+- [ ] 02 Convolutions from scratch
+- [ ] 03 CNNs: LeNet to ResNet
+- [ ] 04 Image classification
+- [ ] 05 Transfer learning
+- [ ] 06 Object detection (YOLO)
+- [ ] 07 Semantic segmentation (UNet)
+- [ ] 08 Instance segmentation (Mask R-CNN)
+- [ ] 09 Image generation (GANs)
+- [ ] 10 Image generation (diffusion)
+- [ ] 11 Stable diffusion
+- [ ] 12 Video understanding
+- [ ] 13 3D vision (NeRF)
+- [ ] 14 Vision transformers
+- [ ] 15 Real-time edge
+- [ ] 16 Vision pipeline capstone
+- [ ] 17 Self-supervised vision
+- [ ] 18 Open-vocab CLIP
+- [ ] 19 OCR / document understanding
+- [ ] 20 Image retrieval metric
+- [ ] 21 Keypoint pose
+- [ ] 22 3D Gaussian splatting
+- [ ] 23 Diffusion transformers / rectified flow
+- [ ] 24 SAM3 open-vocab segmentation
+- [ ] 25 Vision-language models
+- [ ] 26 Monocular depth
+- [ ] 27 Multi-object tracking
+- [ ] 28 World models / video diffusion
+
+## Phase 05 — NLP Foundations to Advanced
+- [ ] 01 Text processing
+- [ ] 02 Bag of words / TF-IDF
+- [ ] 03 Word embeddings (word2vec)
+- [ ] 04 GloVe / fastText / subword
+- [ ] 05 Sentiment analysis
+- [ ] 06 Named entity recognition
+- [ ] 07 POS tagging / parsing
+- [ ] 08 CNNs/RNNs for text
+- [ ] 09 Sequence-to-sequence
+- [ ] 10 Attention mechanism
+- [ ] 11 Machine translation
+- [ ] 12 Text summarization
+- [ ] 13 Question answering
+- [ ] 14 Information retrieval / search
+- [ ] 15 Topic modeling
+- [ ] 16 Text generation pre-transformer
+- [ ] 17 Chatbots: rule to neural
+- [ ] 18 Multilingual NLP
+- [ ] 19 Subword tokenization
+- [ ] 20 Structured outputs / constrained decoding
+- [ ] 21 NLI / textual entailment
+- [ ] 22 Embedding models deep dive
+- [ ] 23 Chunking strategies (RAG)
+- [ ] 24 Coreference resolution
+- [ ] 25 Entity linking
+- [ ] 26 Relation extraction / KG
+- [ ] 27 LLM evaluation frameworks
+- [ ] 28 Long-context evaluation
+- [ ] 29 Dialogue state tracking
+
+## Phase 06 — Speech and Audio
+- [ ] 01 Audio fundamentals
+- [ ] 02 Spectrograms / mel features
+- [ ] 03 Audio classification
+- [ ] 04 Speech recognition (ASR)
+- [ ] 05 Whisper architecture / finetuning
+- [ ] 06 Speaker recognition / verification
+- [ ] 07 Text-to-speech
+- [ ] 08 Voice cloning / conversion
+- [ ] 09 Music generation
+- [ ] 10 Audio language models
+- [ ] 11 Real-time audio processing
+- [ ] 12 Voice assistant pipeline
+- [ ] 13 Neural audio codecs
+- [ ] 14 Voice activity detection / turn-taking
+- [ ] 15 Streaming speech-to-speech (Moshi/Hibiki)
+- [ ] 16 Anti-spoofing / audio watermarking
+- [ ] 17 Audio evaluation metrics
+
+## Phase 07 — Transformers Deep Dive
+- [ ] 01 Why transformers
+- [ ] 02 Self-attention from scratch
+- [ ] 03 Multi-head attention
+- [ ] 04 Positional encoding
+- [ ] 05 Full transformer
+- [ ] 06 BERT / masked language modeling
+- [ ] 07 GPT / causal language modeling
+- [ ] 08 T5 / BART encoder-decoder
+- [ ] 09 Vision transformers
+- [ ] 10 Audio transformers (Whisper)
+- [ ] 11 Mixture of experts
+- [ ] 12 KV cache / flash attention
+- [ ] 13 Scaling laws
+- [ ] 14 Build a transformer capstone
+- [ ] 15 Attention variants
+- [ ] 16 Speculative decoding
+
+## Phase 08 — Generative AI
+- [ ] 01 Generative models taxonomy & history
+- [ ] 02 Autoencoders / VAE
+- [ ] 03 GANs (generator / discriminator)
+- [ ] 04 Conditional GANs / pix2pix
+- [ ] 05 StyleGAN
+- [ ] 06 Diffusion / DDPM from scratch
+- [ ] 07 Latent diffusion / Stable Diffusion
+- [ ] 08 ControlNet / LoRA conditioning
+- [ ] 09 Inpainting / outpainting / editing
+- [ ] 10 Video generation
+- [ ] 11 Audio generation
+- [ ] 12 3D generation
+- [ ] 13 Flow matching / rectified flows
+- [ ] 14 Evaluation: FID / CLIP score
+- [ ] 19 Visual autoregressive (VAR)
+
+## Phase 09 — Reinforcement Learning
+- [ ] 01 MDPs: states, actions, rewards
+- [ ] 02 Dynamic programming
+- [ ] 03 Monte Carlo methods
+- [ ] 04 Q-learning / SARSA
+- [ ] 05 DQN
+- [ ] 06 Policy gradients / REINFORCE
+- [ ] 07 Actor-critic / A2C / A3C
+- [ ] 08 PPO
+- [ ] 09 Reward modeling / RLHF
+- [ ] 10 Multi-agent RL
+- [ ] 11 Sim-to-real transfer
+- [ ] 12 RL for games
+
+## Phase 10 — LLMs from Scratch
+- [ ] 01 Tokenizers
+- [ ] 02 Building a tokenizer
+- [ ] 03 Data pipelines
+- [ ] 04 Pre-training mini-GPT
+- [ ] 05 Scaling / distributed
+- [ ] 06 Instruction tuning (SFT)
+- [ ] 07 RLHF
+- [ ] 08 DPO
+- [ ] 09 Constitutional AI / self-improvement
+- [ ] 10 Evaluation
+- [ ] 11 Quantization
+- [ ] 12 Inference optimization
+- [ ] 13 Building complete LLM pipeline
+- [ ] 14 Open models architecture walkthroughs
+- [ ] 15 Speculative decoding (EAGLE3)
+- [ ] 16 Differential attention v2
+- [ ] 17 Native sparse attention
+- [ ] 18 Multi-token prediction
+- [ ] 19 DualPipe parallelism
+- [ ] 20 DeepSeek-V3 walkthrough
+- [ ] 21 Jamba (hybrid SSM transformer)
+- [ ] 22 Async / hogwild inference
+- [ ] 25 Speculative decoding
+- [ ] 34 Gradient checkpointing
+
+## Phase 11 — LLM Engineering
+- [ ] 01 Prompt engineering
+- [ ] 02 Few-shot / CoT
+- [ ] 03 Structured outputs
+- [ ] 04 Embeddings
+- [ ] 05 Context engineering
+- [ ] 06 RAG
+- [ ] 07 Advanced RAG
+- [ ] 08 Fine-tuning / LoRA
+- [ ] 09 Function calling
+- [ ] 10 Evaluation
+- [ ] 11 Caching / cost
+- [ ] 12 Guardrails
+- [ ] 13 Production app
+- [ ] 14 Model Context Protocol
+- [ ] 15 Prompt caching
+- [ ] 16 LangGraph state machines
+- [ ] 17 Agent framework tradeoffs
+
+## Phase 12 — Multimodal AI
+- [ ] 01 Vision transformer patch tokens
+- [ ] 02 CLIP contrastive pretraining
+- [ ] 03 BLIP-2 / Q-Former bridge
+- [ ] 04 Flamingo gated cross-attention
+- [ ] 05 LLaVA visual instruction tuning
+- [ ] 06 Any-resolution / patch-n-pack
+- [ ] 07 Open-weight VLM recipes
+- [ ] 08 LLaVA-OneVision single/multi/video
+- [ ] 09 Qwen-VL family / dynamic FPS
+- [ ] 10 InternVL3 native multimodal
+- [ ] 11 Chameleon early-fusion tokens
+- [ ] 12 Emu3 next-token for generation
+- [ ] 13 Transfusion autoregressive diffusion
+- [ ] 14 Show-O discrete diffusion unified
+- [ ] 15 Janus-Pro decoupled encoders
+- [ ] 16 MIO any-to-any streaming
+- [ ] 17 Video-language temporal grounding
+- [ ] 18 Long video million-token
+- [ ] 19 Audio-language Whisper to AF3
+- [ ] 20 Omni models (thinker/talker)
+- [ ] 21 Embodied VLAs (OpenVLA / Pi0 / Groot)
+- [ ] 22 Document / diagram understanding
+- [ ] 23 ColPali vision-native RAG
+- [ ] 24 Multimodal RAG / cross-modal
+- [ ] 25 Multimodal agents (computer use)
+
+## Phase 13 — Tools and Protocols
+- [ ] 01 The tool interface
+- [ ] 02 Function calling deep dive
+- [ ] 03 Parallel and streaming tool calls
+- [ ] 04 Structured output
+- [ ] 05 Tool schema design
+- [ ] 06 MCP fundamentals
+- [ ] 07 Building an MCP server
+- [ ] 08 Building an MCP client
+- [ ] 09 MCP transports
+- [ ] 10 MCP resources and prompts
+- [ ] 11 MCP sampling
+- [ ] 12 MCP roots and elicitation
+- [ ] 13 MCP async tasks
+- [ ] 14 MCP apps
+- [ ] 15 MCP security / tool poisoning
+- [ ] 16 MCP security / OAuth 2.1
+- [ ] 17 MCP gateways and registries
+- [ ] 18 MCP auth production
+- [ ] 19 A2A protocol
+- [ ] 20 OpenTelemetry GenAI
+- [ ] 21 LLM routing layer
+- [ ] 22 Skills and agent SDKs
+- [ ] 23 Capstone: tool ecosystem
+
+## Phase 14 — Agent Engineering
+- [ ] 01 The agent loop
+- [ ] 02 ReWOO plan-and-execute
+- [ ] 03 Reflexion verbal RL
+- [ ] 04 Tree of Thoughts / LATS
+- [ ] 05 Self-refine and critic
+- [ ] 06 Tool use and function calling
+- [ ] 07 Memory / virtual context (MemGPT)
+- [ ] 08 Memory blocks / sleep-time compute
+- [ ] 09 Hybrid memory (Mem0)
+- [ ] 10 Skill libraries (Voyager)
+- [ ] 11 Planning: HTN and evolutionary
+- [ ] 12 Anthropic workflow patterns
+- [ ] 13 LangGraph stateful graphs
+- [ ] 14 AutoGen actor model
+- [ ] 15 CrewAI role-based crews
+- [ ] 16 OpenAI Agents SDK
+- [ ] 17 Claude Agent SDK
+- [ ] 18 Agno and Mastra runtimes
+- [ ] 19 Benchmarks: SWE-bench / GAIA
+- [ ] 20 Benchmarks: WebArena / OSWorld
+- [ ] 21 Computer-use agents
+- [ ] 22 Voice agents (Pipecat / LiveKit)
+- [ ] 23 OTel GenAI conventions
+- [ ] 24 Agent observability platforms
+- [ ] 25 Multi-agent debate
+- [ ] 26 Failure modes (agentic)
+- [ ] 27 Prompt injection defense
+- [ ] 28 Orchestration patterns
+- [ ] 29 Production runtimes
+- [ ] 30 Eval-driven agent development
+- [ ] 31 Agent workbench: why models fail
+- [ ] 32 Minimal agent workbench
+- [ ] 33 Instructions as executable constraints
+- [ ] 34 Repo memory and state
+- [ ] 35 Initialization scripts
+- [ ] 36 Scope contracts
+- [ ] 37 Runtime feedback loops
+- [ ] 38 Verification gates
+- [ ] 39 Reviewer agent
+- [ ] 40 Multi-session handoff
+- [ ] 41 Workbench for real repos
+- [ ] 42 Agent workbench capstone
+
+## Phase 15 — Autonomous Systems
+- [ ] 01 Long-horizon agents
+- [ ] 02 STaR family reasoning
+- [ ] 03 AlphaEvolve evolutionary coding
+- [ ] 04 Darwin Gödel machine
+- [ ] 05 AI Scientist v2
+- [ ] 06 Automated alignment research
+- [ ] 07 Recursive self-improvement
+- [ ] 08 Bounded self-improvement
+- [ ] 09 Coding agent landscape
+- [ ] 10 Claude Code permission modes
+- [ ] 11 Browser agents
+- [ ] 12 Durable execution
+- [ ] 13 Cost governors
+- [ ] 14 Kill switches / canaries
+- [ ] 15 Propose-then-commit
+- [ ] 16 Checkpoints / rollback
+- [ ] 17 Constitutional AI
+- [ ] 18 Llama Guard
+- [ ] 19 Anthropic RSP
+- [ ] 20 OpenAI Preparedness / DeepMind FSF
+- [ ] 21 METR external evaluation
+- [ ] 22 CAIS / CAISI societal risk
+
+## Phase 16 — Multi-Agent and Swarms
+- [ ] 01 Why multi-agent
+- [ ] 02 FIPA ACL heritage
+- [ ] 03 Communication protocols
+- [ ] 04 Primitive model
+- [ ] 05 Supervisor / orchestrator pattern
+- [ ] 06 Hierarchical architecture
+- [ ] 07 Society of mind / debate
+- [ ] 08 Role specialization
+- [ ] 09 Parallel swarm networks
+- [ ] 10 Group chat / speaker selection
+- [ ] 11 Handoffs and routines
+- [ ] 12 A2A protocol
+- [ ] 13 Shared memory / blackboard
+- [ ] 14 Consensus and BFT
+- [ ] 15 Voting / debate topology
+- [ ] 16 Negotiation / bargaining
+- [ ] 17 Generative agents simulation
+- [ ] 18 Theory of mind coordination
+- [ ] 19 Swarm optimization (PSO / ACO)
+- [ ] 20 MARL (MADDPG / QMIX / MAPPO)
+- [ ] 21 Agent economies
+- [ ] 22 Production scaling (queues / checkpoints)
+- [ ] 23 Failure modes (MAST / groupthink)
+- [ ] 24 Evaluation / coordination benchmarks
+- [ ] 25 Case studies: 2026 SOTA
+
+## Phase 17 — Infrastructure and Production
+- [ ] 01 Managed LLM platforms
+- [ ] 02 Inference platform economics
+- [ ] 03 GPU autoscaling on Kubernetes
+- [ ] 04 vLLM serving internals
+- [ ] 05 EAGLE3 speculative decoding
+- [ ] 06 SGLang RadixAttention
+- [ ] 07 TensorRT-LLM Blackwell
+- [ ] 08 Inference metrics / goodput
+- [ ] 09 Production quantization
+- [ ] 10 Cold-start mitigation
+- [ ] 11 Multi-region KV locality
+- [ ] 12 Edge inference
+- [ ] 13 LLM observability
+- [ ] 14 Prompt / semantic caching
+- [ ] 15 Batch APIs
+- [ ] 16 Model routing
+- [ ] 17 Disaggregated prefill/decode
+- [ ] 18 vLLM production stack / LMCache
+- [ ] 19 AI gateways
+- [ ] 20 Shadow / canary / progressive
+- [ ] 21 A/B testing LLM features
+- [ ] 22 Load testing LLM APIs
+- [ ] 23 SRE for AI
+- [ ] 24 Chaos engineering for LLM
+- [ ] 25 Security / secrets / audit
+- [ ] 26 Compliance frameworks
+- [ ] 27 FinOps for LLMs
+- [ ] 28 Self-hosted serving selection
+
+## Phase 18 — Ethics, Safety, Alignment
+- [ ] 01 Instruction-following alignment signal
+- [ ] 02 Reward hacking / Goodhart
+- [ ] 03 Direct Preference Optimization family
+- [ ] 04 Sycophancy / RLHF amplification
+- [ ] 05 Constitutional AI / RLAIF
+- [ ] 06 Mesa-optimization / deceptive alignment
+- [ ] 07 Sleeper agents / persistent deception
+- [ ] 08 In-context scheming (frontier models)
+- [ ] 09 Alignment faking
+- [ ] 10 AI control / subversion
+- [ ] 11 Scalable oversight / weak-to-strong
+- [ ] 12 Red teaming / PAIR / automated attacks
+- [ ] 13 Many-shot jailbreaking
+- [ ] 14 ASCII art / visual jailbreaks
+- [ ] 15 Indirect prompt injection
+- [ ] 16 Red-team tooling (Garak / LlamaGuard / PyRIT)
+- [ ] 17 WMDP dual-use evaluation
+- [ ] 18 Frontier safety frameworks (RSP / PF / FSF)
+- [ ] 19 Model welfare research
+- [ ] 20 Bias / representational harm
+- [ ] 21 Fairness criteria (group / individual / counterfactual)
+- [ ] 22 Differential privacy for LLMs
+- [ ] 23 Watermarking (SynthID / Stable Signature / C2PA)
+- [ ] 24 Regulatory frameworks (EU / US / UK / Korea)
+- [ ] 25 EchoLeak / CVEs for AI
+- [ ] 26 Model / system / dataset cards
+- [ ] 27 Data provenance / training governance
+- [ ] 28 Alignment research ecosystem
+- [ ] 29 Moderation systems (OpenAI / Perspective / LlamaGuard)
+- [ ] 30 Dual-use risk (cyber / bio / chem / nuclear)
+
+## Phase 19 — Capstone Projects
+- [ ] 01 Terminal-native coding agent
+- [ ] 02 RAG over codebase
+- [ ] 03 Real-time voice assistant
+- [ ] 04 Multimodal document QA
+- [ ] 05 Autonomous research agent
+- [ ] 06 DevOps troubleshooting agent
+- [ ] 07 End-to-end fine-tuning pipeline
+- [ ] 08 Production RAG chatbot
+- [ ] 09 Code migration agent
+- [ ] 10 Multi-agent software team
+- [ ] 11 LLM observability dashboard
+- [ ] 12 Video understanding pipeline
+- [ ] 13 MCP server with registry
+- [ ] 14 Speculative decoding server
+- [ ] 15 Constitutional safety harness
+- [ ] 16 GitHub issue-to-PR agent
+- [ ] 17 Personal AI tutor

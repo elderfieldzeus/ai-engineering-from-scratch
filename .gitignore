@@ -56,3 +56,10 @@ mlruns/
 
 .link-cache.json
 .claude/
+
+
+# Added by cargo
+
+/target
+
+/temp
